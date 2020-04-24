@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default() => {
   return axios.create({
-    baseURL: 'http://newaketajawe.local/api/'
+    baseURL: 'https://new.aketajawe.com/api/'
   })
 }
