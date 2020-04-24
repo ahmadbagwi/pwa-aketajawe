@@ -1,7 +1,15 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <div>
+        <b-navbar type="dark" variant="dark">
+          <b-navbar-nav>
+            <b-nav-item href="#">Home</b-nav-item>
+            <router-link to="/"><b-nav-item href="/">Beranda</b-nav-item></router-link>
+            <router-link to="/blog"><b-nav-item href="/blog">Blog</b-nav-item></router-link>
+          </b-navbar-nav>
+        </b-navbar>
+      </div>
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
