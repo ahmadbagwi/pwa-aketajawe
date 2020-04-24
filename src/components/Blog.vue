@@ -9,7 +9,7 @@
               </b-col>
             </b-row>
             <b-row>
-                <b-col cols="4" v-for="dataBlog in blog" :key="dataBlog.id">
+                <b-col col lg="4" xs="12" v-for="dataBlog in blog" :key="dataBlog.id">
                     <b-card :title="dataBlog.title" :img-src="dataBlog.featured">
                         <b-card-text v-html="dataBlog.content.substring(0,150)">
                         </b-card-text>
