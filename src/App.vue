@@ -4,8 +4,7 @@
       <div>
         <b-navbar type="dark" variant="dark">
           <b-navbar-nav>
-            <b-nav-item href="#">Home</b-nav-item>
-            <router-link to="/"><b-nav-item href="/">Beranda</b-nav-item></router-link>
+            <router-link to="/hello"><b-nav-item href="/">Hello</b-nav-item></router-link>
             <router-link to="/blog"><b-nav-item href="/blog">Blog</b-nav-item></router-link>
           </b-navbar-nav>
         </b-navbar>
